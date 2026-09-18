@@ -1,0 +1,9 @@
+{
+  "NPC_TYPE": "enemy",
+  "Name": "zombie",
+  "HP": 20,
+  "Attacks": {
+    "Bite": 5,
+    "Slash": 3
+  }
+}

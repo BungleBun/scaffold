@@ -1,0 +1,8 @@
+{
+  "Name": "Pretty fly for a Py Guy",
+  "Health": 100,
+  "Attacks": {
+    "Punch" : 3,
+    "Kick": 4
+  }
+}

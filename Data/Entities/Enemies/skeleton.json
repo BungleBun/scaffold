@@ -1,0 +1,9 @@
+{
+  "ENTTYPE": "enemy",
+  "Name": "skeleton",
+  "HP": 15,
+  "Attacks": {
+    "Shoot": 5,
+    "Smack": 3
+  }
+}

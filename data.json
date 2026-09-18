@@ -1,0 +1,8 @@
+{
+  "NPC_TYPE": "enemy",
+  "E_name": "Evil larry",
+  "Attacks": {
+    "Biteof83": 15,
+    "Biteof87": 20
+  }
+}
