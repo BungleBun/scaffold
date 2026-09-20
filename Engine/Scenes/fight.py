@@ -1,0 +1,1 @@
+#Class called fight that takes 1 protag (player or possibly more if engine allows for allies) and 1 or more antag and runs them through a fight sequence. 

@@ -5,5 +5,10 @@ class Enemy(Entity):
 
     def __init__(self):
         super().__init__(
-            name=
+            name="jajs",
+            health=38,
+            attacks={"Boom": 20}
         )
+
+enemy = Enemy()
+print(enemy.name)
