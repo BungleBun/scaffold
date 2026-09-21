@@ -14,4 +14,4 @@ class Player(Entity):
         )
 
 player = Player()
-print()
+print(player.isalive())
