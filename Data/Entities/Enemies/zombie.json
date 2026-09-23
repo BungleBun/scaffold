@@ -1,9 +1,15 @@
 {
   "NPC_TYPE": "enemy",
   "Name": "zombie",
-  "HP": 20,
+  "Health": 30,
   "Attacks": {
-    "Bite": 5,
-    "Slash": 3
+    "Slash": {
+      "Damage": 10,
+      "Effect": null
+    },
+    "Bite": {
+      "Damage": 15,
+      "Effect": null
+    }
   }
 }

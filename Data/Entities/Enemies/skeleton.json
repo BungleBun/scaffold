@@ -3,7 +3,13 @@
   "Name": "skeleton",
   "HP": 15,
   "Attacks": {
-    "Shoot": 5,
-    "Smack": 3
+    "Smack": {
+      "Damage": 5,
+      "Effect": null
+    },
+    "Shoot": {
+      "Damage": 10,
+      "Effect": null
+    }
   }
 }

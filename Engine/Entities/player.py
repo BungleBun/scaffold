@@ -1,4 +1,4 @@
-from entity import Entity
+from Engine.Entities.entity import Entity
 import json
 
 
@@ -13,5 +13,20 @@ class Player(Entity):
             attacks=player_data["Attacks"]
         )
 
-player = Player()
-print(player.isalive())
+    def choose_attack(self):
+
+        attack_names = list(self.attacks.keys())
+
+        for number, attack_name in enumerate(attack_names, start=1):
+            print(f"{number}. {attack_name}")
+
+        while True:
+            choice = input(">>>")
+
+            if choice.isdigit():
+                choice = int(choice)
+
+                if 1 <= choice <= len(attack_names):
+                    return attack_names[choice - 1]
+
+            print("Invalid choice. Try again.")

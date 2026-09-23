@@ -1,5 +1,6 @@
-from entity import Entity
+from Engine.Entities.entity import Entity
 import json
+import random
 
 class Enemy(Entity):
 
@@ -12,5 +13,5 @@ class Enemy(Entity):
             attacks=enemy_data["Attacks"]
         )
 
-enemy = Enemy()
-print(enemy.name)
+    def choose_attack(self):
+        return random.choice(list(self.attacks.keys()))
