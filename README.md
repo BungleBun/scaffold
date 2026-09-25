@@ -44,6 +44,8 @@ This project is still in early development. Stay tuned for how to run!
 
 # Update log:
 
+* 9/23/2026: Made a good baseline for a fighting system.
+
 * 9/22/2026: Created a suitable README that explains what this software is, why it was made, and how it runs.
 
 * 9/21/2026: Minor bug fix in Entity class' isalive() function. Added more directories for future file organization.
